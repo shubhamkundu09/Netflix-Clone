@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: image-set("22.1.bg1.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+}
+
+.box {
+    background-color: black;
+    opacity: 0.64;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    width: 100px;
+    position: relative;
+    z-index: 10;
+    /* z-index is used to pop out logo and buttons from the screen  */
+}
+
+.head1 {
+    position: relative;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.head1> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.head1> :nth-child(2) {
+    font-size: 26px;
+}
+
+.head1> :nth-child(3) {
+    font-size: 20px;
+}
+
+.separation1 {
+    height: 10px;
+    background-color: rgb(51, 49, 49);
+}
+
+.btn1 {
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1 select {
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn2 {
+    background-color: red;
+    color: white;
+    padding: 0px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: red;
+    color: white;
+    padding: 17px 42px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#text1 {
+    /* padding: 16px 72px; */
+    background-color: rgba(23, 23, 23, 0.7);
+    font-size: large;
+    padding-left: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 42px;
+    color: white;
+}
+
+.sec1 {
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+.sec1img{
+    position: relative;
+}
+.sec1img img{
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.sec1img video{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+}
+section.sec1 > div{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+Section.sec1 > div :first-child{
+    font-size: 55px;
+    font-weight: bolder;
+}
+section.sec1 > div :nth-child(2){
+    font-size: 24px;
+}
+.sec2{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.sec2 img{
+    width: 30vw;
+}
+.faq h2{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+.faqbox{
+    display: flex;
+    background-color: gray;
+    max-width: 60vw;
+    margin: auto;
+    height: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    padding: 13px;
+}
+.faqbox:hover{
+    background-color: rgb(27, 26, 26);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 25px;
+    
+}
+footer{
+    color: white;
+    max-width: 80vw;
+    margin: auto;
+}
+
